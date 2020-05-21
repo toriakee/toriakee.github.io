@@ -160,6 +160,7 @@ jQuery(document).ready(function($) {
 		if ( $('.hero-slide').length > 0 ) {
 			$('.hero-slide').owlCarousel({
 				items: 1,
+				center: true,
 				loop: true,
 				margin: 0,
 				autoplay: true,
@@ -172,7 +173,7 @@ jQuery(document).ready(function($) {
 
 		if ( $('.owl-slide-3').length > 0 ) {
 			$('.owl-slide-3').owlCarousel({
-				center: false,
+				center: true,
 				items: 1,
 				loop: true,
 				stagePadding: 0,
@@ -198,7 +199,7 @@ jQuery(document).ready(function($) {
 
 		if ( $('.owl-slide').length > 0 ) {
 			$('.owl-slide').owlCarousel({
-		    center: false,
+		    center: true,
 		    items: 2,
 		    loop: true,
 				stagePadding: 0,
@@ -231,7 +232,7 @@ jQuery(document).ready(function($) {
 
 		if ( $('.nonloop-block-14').length > 0 ) {
 			$('.nonloop-block-14').owlCarousel({
-		    center: false,
+		    center: true,
 		    items: 1,
 		    loop: true,
 				stagePadding: 0,
@@ -262,7 +263,7 @@ jQuery(document).ready(function($) {
 		}
 
 		$('.slide-one-item').owlCarousel({
-			center: false,
+			center: true,
 			items: 1,
 			loop: true,
 			stagePadding: 0,

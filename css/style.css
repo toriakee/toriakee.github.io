@@ -1531,6 +1531,8 @@ h1, h2, h3, h4, h5,
       background: #fff; }
 
 /*.social-icons {
+  background: #fff;
+  opacity:0.7
   text-align: center;
   margin-bottom: 50px; }
   .social-icons a {
@@ -1558,8 +1560,6 @@ h1, h2, h3, h4, h5,
   padding: 5px;
   margin-bottom: 50px;
   border-radius: 50%;
-  background: #fff;
-  opacity:0.7;
 }
 /* Add a hover effect if you want */
 .icon:hover {

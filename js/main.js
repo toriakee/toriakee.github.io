@@ -159,7 +159,7 @@ jQuery(document).ready(function($) {
 	var siteCarousel = function () {
 
 		if ( $('.hero-slide').length > 0 ) {
-			$('.hero-slide').owlCarousel({
+			$('.hero-slide').addClass('owl-carousel').owlCarousel({
 				items: 1,
 				center: true,
 				loop: true,

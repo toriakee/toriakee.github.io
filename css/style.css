@@ -618,8 +618,7 @@ h1, h2, h3, h4, h5,
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
-    display:block;
-    width:100%;
+    display:flex;
     }
   .owl-slide-3 .owl-nav .owl-prev,
   .owl-slide-3 .owl-nav .owl-next, .owl-slide .owl-nav .owl-prev,

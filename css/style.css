@@ -18,12 +18,17 @@ body {
   color: #fff; }
 
 a {
+  color:#fff;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; 
 }
   a:hover {
     text-decoration: none; }
+
+ .link {
+  color:#505050; 
+} 
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
@@ -976,11 +981,18 @@ h1, h2, h3, h4, h5,
     /* Firefox 18- */
     color: #fff; }
 
-.quote-form .btn-primary:hover {
-  background: #000;
-  border-color: #000;
-  color: #fff; }
+.quote-form .btn-primary {
+  
+  background: #989898;
+  border-color: #989898;
+  color: #fff; 
+}
 
+.quote-form .btn-primary:hover {
+  background: #606060;
+  border-color: #606060;
+  color: #fff; 
+}
 .person {
   position: relative; }
   .person figure {

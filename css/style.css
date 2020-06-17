@@ -30,6 +30,11 @@ a {
   color:#505050; 
 } 
 
+.linkone {
+  color:#505050;
+  font-size:0.8rem; 
+} 
+
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: 'Lato', sans-serif;}

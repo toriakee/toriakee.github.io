@@ -1012,6 +1012,8 @@ h1, h2, h3, h4, h5,
   background: #989898;
   border-color: #989898;
   color: #fff; 
+  padding-left: 5em;
+  padding-right:5em;
 }
 
 .quote-form .btn-monzo {

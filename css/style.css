@@ -1478,9 +1478,11 @@ h1, h2, h3, h4, h5,
     display: block;
      }
   .wine_v_1 .heading, .wine_h_1 .heading {
-    font-size: 16px; }
+    font-size: 15px;
+    font-style:italic; }
     .wine_v_1 .heading a, .wine_h_1 .heading a {
-      color: #000; }
+      color: #989898;
+      visibility: visible }
   .wine_v_1 .wine-actions, .wine_h_1 .wine-actions {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1490,7 +1492,7 @@ h1, h2, h3, h4, h5,
     bottom: 0px;
     background: #fff;
     opacity: 1;
-    visibility: hidden;
+    visibility: visible;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease; }
@@ -1500,13 +1502,21 @@ h1, h2, h3, h4, h5,
       .wine_v_1 .wine-actions .heading-2 a, .wine_h_1 .wine-actions .heading-2 a {
         color: #404040; }
       .wine_v_1 .wine-actions .heading-3, .wine_h_1 .wine-actions .heading-3 {
-      font-size: 16px;  }
+      font-size: 10px;
+      font-style:italic;  }
     .wine_v_1 .wine-actions .price, .wine_h_1 .wine-actions .price {
       font-size: 20px;
       font-weight:bold;
       color: #404040;
       font-family: "Lato", sans-serif;
       margin-bottom: 10px; }
+      .wine_v_1 .price, .wine_h_1 .price a {
+      font-size: 20px;
+      font-weight:bold;
+      color: #989898;
+      font-family: "Lato", sans-serif;
+      margin-bottom: 10px;}
+      
     .wine_v_1 .wine-actions .btn, .wine_h_1 .wine-actions .btn {
       background: #653221;
       color: #fff;

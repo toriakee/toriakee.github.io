@@ -1,8 +1,10 @@
 /* Base */
 html {
-  overflow-x: hidden; }
+  overflow-x: hidden!important; }
 
-html, body {width: auto!important; overflow-x: hidden!important} 
+html, body {
+  width: auto!important; 
+  overflow-x: hidden!important} 
 
 body {
   line-height: 1.7;
@@ -104,13 +106,15 @@ h1, h2, h3, h4, h5,
 .bg-black {
   background: #000; }
 
+
+/*CHANGED 7 and 4*/
 .site-section {
   /*padding: 2.5em 0; */}
   @media (min-width: 768px) {
     .site-section {
-      padding: 7em 0; } }
+      padding: 1em 0; } }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 1em 0; }
 
 .site-section-heading {
   padding-bottom: 0px;

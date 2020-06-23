@@ -107,14 +107,13 @@ h1, h2, h3, h4, h5,
   background: #000; }
 
 
-/*CHANGED 7 and 4*/
 .site-section {
   /*padding: 2.5em 0; */}
   @media (min-width: 768px) {
     .site-section {
-      padding: 1em 0; } }
+      padding: 7em 0; } }
   .site-section.site-section-sm {
-    padding: 1em 0; }
+    padding: 4em 0; }
 
 .site-section-heading {
   padding-bottom: 0px;
@@ -1483,6 +1482,33 @@ h1, h2, h3, h4, h5,
     position: relative;
     display: block;
      }
+     .wine_v_1 .thumbnail:hover, .wine_h_1 .thumbnail:hover {
+    position: relative;
+    display: block;
+    opacity:0.7;
+     }
+    .wine_v_1 .thumbnailcs, .wine_h_1 .thumbnailcs {
+    position: relative;
+    display: block;
+}
+ .wine_v_1 .thumbnailcs .text, .wine_h_1 .thumbnailcs .text{
+    visibility: hidden;
+     }
+
+     .wine_v_1 .thumbnailcs:hover, .wine_h_1 .thumbnailcs:hover {
+    position: relative;
+    display: block;
+    background-image: url('images/fruit&nut.png');
+    filter: brightness(0.2);
+     }
+
+       .wine_v_1 .thumbnailcs:hover .text, .wine_h_1 .thumbnailcs:hover .text {
+    position: relative;
+    display: block;
+    background-image: url('images/fruit&nut.png');
+    visibility:visible;
+     }
+
   .wine_v_1 .heading, .wine_h_1 .heading {
     font-size: 15px;
     font-style:italic; }
